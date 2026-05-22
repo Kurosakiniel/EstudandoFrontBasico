@@ -1,0 +1,67 @@
+<!--
+
+Atividade07 — Formulário Completo
+
+Crie um formulário de cadastro mais completo.
+
+O formulário deve ter:
+Nome
+Sobrenome
+Email
+Senha
+Confirmar senha
+Idade
+Data de nascimento
+Campo de mensagem
+Botão de envio
+Regras IMPORTANTES
+TODOS os inputs devem ter:
+id
+name
+TODOS os labels devem estar conectados corretamente
+
+Exemplo:
+
+<label for="nome">Nome</label>
+<input type="text" id="nome" name="nome">
+
+Quero ver tipos corretos:
+email
+password
+number
+date
+
+-->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de cadastro</title>
+</head>
+<body>
+    <header>
+        <h1>Formulario de Cadastro</h1>
+        <p>Por favor preencha o formulário abaixo:</p>
+    </header>
+
+    <form action="">
+        <label for="name">Nome:</label>
+        <input type="text" name="name" id="name"> <!-- Name: serve para identificar de qual controle vem o dado. id: manipula/acessa individualmente serve tanto pra estilizar quando pra manibular com js-->
+        <label for="text">Sobrenome:</label> 
+        <input type="text" name="Sobrenome" id="Sobrenome">
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+        <label for="senha">Senha:</label>
+        <input type="password" name="password" id="password">
+        <label for="confirmarSenha">Confirmar senha:</label>
+        <input type="password" name="password" id="password">
+        <label for="Idade">Idade:</label>
+        <input type="text" name="Idade" id="Idade">
+        <label for="Data de Nascimento">Data de Nascimento:</label>
+        <input type="date" name="DataNascimento" id="DataNascimento">
+        <button type="submit" name="Enviar" id="Evniar">Enviar</button>
+    </form>
+</body>
+</html>
