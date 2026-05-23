@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(84, 30, 135);
+    font-size: larger;
+    text-align: center;
+}
+
+h1{
+    color: aliceblue;
+}
+
+h2{
+    color: aliceblue;
+}
+
+p{
+    color: aliceblue;
+}
+#ImagemDePerfil{
+    width: 450px;
+    border-radius: 50%;
+    border-color: rgba(255, 255, 255, 0.471);
+    border-style:solid;    
+}
+
+#linkedinBotton{
+   margin-top: 2%;
+   padding: 10px;
+   width: 80px;
+}
+
+#githubBotton{
+    margin-top: 2%;
+    padding: 10px;
+    width: 80px;
+}
+
+#yotubueBotton{
+    margin-top: 2%;
+    padding: 10px;
+    width: 80px;
+}
