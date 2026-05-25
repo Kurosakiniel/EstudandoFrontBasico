@@ -1,0 +1,68 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(0, 0, 0, 0.76);
+}
+
+#dark-Souls-1{
+    width: 800px;
+}
+#ds2img{
+    width: 700px;
+}
+#ds3-img{
+    width: 800px;
+}
+
+#Dark-Souls-01-artigo{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#ds2{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#Ds3{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#formulario{
+    background-color: rgba(255, 255, 255, 0.212);
+
+}
+
+#footer{
+    background-color: rgba(255, 255, 255, 0.29);
+}
+h1{
+    color: aliceblue;
+}
+
+h2{
+    color: aliceblue;
+}
+
+h3{
+    color: aliceblue;
+}
+
+ol{
+    color: aliceblue;
+}
+
+li{
+    color: aliceblue;
+}
+
+label{
+    color: aliceblue;
+}
+p{
+    color: aliceblue;
+    font-size: medium;
+}
+a{
+    color: aliceblue;
+}
