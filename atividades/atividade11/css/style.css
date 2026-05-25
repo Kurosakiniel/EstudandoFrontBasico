@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(228, 233, 237);
+    margin-inline-start: 120px;
+}
+
+
+h1{
+    margin-inline-start: 350px;
+    color: rgb(0, 0, 0);
+}
+
+#miojo{
+    margin-inline-start: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 0px;
+}
+
+p{
+    padding: 10px;
+}
+
+h2{
+    padding: 4px;
+}
+li{
+    padding: 10px;
+}
+
+
+
+#naruto{
+    margin-inline-start: 450px;
+    width: 300px;
+    box-shadow: 0px 0px 25px 0px;
+}
