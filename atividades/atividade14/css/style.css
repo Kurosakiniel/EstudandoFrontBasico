@@ -1,0 +1,30 @@
+.navegacao{
+    list-style: none;
+    display: flex;
+}
+
+
+.navegacao nav{
+    display: flex;
+    
+}
+
+.navegacao a{
+    list-style: none;
+    margin-left: 30px;
+    display: flex;
+    border: solid;
+    border-radius: 20%;
+    border-width: 5%;
+    text-decoration: none;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.navegacao a:hover{
+    background-color: rgb(144, 152, 224);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
