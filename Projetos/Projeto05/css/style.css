@@ -1,0 +1,146 @@
+.navegacao{
+    display: flex;
+    padding-left: 20%;
+    gap: 80px;
+}
+
+.navegacao img{
+    max-width: 150px;
+    max-height: 150px;
+}
+.navegacao nav{
+    display: flex;
+    gap: 10px;
+}
+
+.navegacao a{
+    list-style: none;
+    margin-left: 30px;
+    display: flex;
+    border-style: groove;
+    border-radius: 15%;
+    border-width: 30%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+
+.container-principal{
+    display: block;
+}
+
+.navegacao a:hover{
+    background-color: rgb(144, 152, 224);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+
+.hero-section{
+   display: block;
+   background-color: rgb(225, 225, 216);
+}
+
+.hero-section h1{
+    margin-left: 30%;
+    max-width: 500px;
+}
+
+.hero-section img{
+    margin-left: 30%;
+    max-width: 3000px;
+    max-height: 3000px;
+    border-style: ridge;
+    border-width: 20%;
+    border-color: black;
+}
+
+.hero-section p{
+    margin-top: 2%;
+    margin-left: 32%;
+    margin-bottom: 2%;
+}
+
+.hero-section button{
+    margin-left: 42%;
+    height: 80px;
+    border: none;
+}
+
+.card-conteiner{
+    display: flex;
+    gap: 20px;
+    background-color: rgb(225, 225, 216);
+}
+.card-conteiner img{
+    max-width: 100%;
+    max-height: 300px;
+}
+.card-conteiner h2{
+    padding-top: 5%;
+    padding-left: 25%;
+    padding-bottom: 2%;
+}
+.card-conteiner p{
+    padding-left: 25%;
+}
+.card-conteiner button{
+    padding: 15px;
+    border-radius: 8px;
+    background-color: rgb(98, 158, 105);
+    width: 100%;
+}
+.titulo-card{
+    margin-bottom: auto;
+}
+.card{
+    display: block;
+    margin-top: 5%;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: rgba(21, 1, 20, 0.222);
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(233, 234, 235);
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.artigo-container{
+    padding-top: 3%;
+    display: flex;
+    gap: 30px;
+    background-color: rgb(225, 225, 216);
+}
+
+.artigo h1{
+    margin-bottom: 10%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.artigo{
+    align-items:end
+}
+
+.artigo img{    
+    max-width: 500px;
+    max-height: 500px;
+    margin-left: 8%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.artigo h2{
+    font-size:xx-large;
+}
+
+.footer{
+    background-color: rgb(225, 225, 216);
+    display: flex;
+    gap: 50px;
+}
